@@ -1,0 +1,512 @@
+body {
+    background-color: #1E252B;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.header {
+    padding: 30px 105px 0 111px;
+}
+.main {
+    padding: 0 105px 0 111px;
+}
+
+.logo-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFFFFFE5;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: #FFFFFF8C;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-auth {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.login {
+    background: transparent;
+    text-decoration: none;
+    border: none;
+    color: #FFFFFFC7;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-signup {
+    background: #FF6E30;
+    border: none;
+    color: #FDF5FF;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+}
+
+.hero-content {
+    flex: 0 0 auto;
+}
+
+.hero-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 140%;
+    color: #FFFFFF;
+    width: 600px;
+    padding-top: 104px;
+}
+
+.orange-dot {
+    color: #FF6E30;
+}
+
+.hero-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF8C;
+    margin: 0;
+    width: 487px;
+}
+
+.hero-image {
+    position: absolute;
+    right: 0;
+    padding-top: 132px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.search-container {
+    position: absolute;
+    top: 468px;
+    left: 108px;
+    width: 497.66px;
+    height: 64px;
+}
+
+.search-box {
+    width: 100%;
+    height: 100%;
+    background: #283036;
+    border: 1.5px solid #FFFFFF1A;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    gap: 13px;
+}
+
+.search-input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: #FFFFFF61;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    outline: none;
+}
+
+.search-btn {
+    background: #FF6E30;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 12px 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background: #ff8559;
+}
+
+.social {
+    list-style: none;
+    padding-top: 234px;
+    display: flex;
+    gap: 5px;
+}
+
+.tools {
+    padding: 100px 0;
+}
+
+.tools-header {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.tools-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin: 0 0 25px 0;
+}
+
+.tools-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 0;
+}
+
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 1224px;
+    margin: 60px auto 0;
+    padding: 0 20px;
+    justify-items: center;
+}
+
+.tool-card {
+    width: 100%;
+    max-width: 392px;
+    height: 294px;
+    background: #1E252B;
+    border-radius: 15px;
+    padding: 33px;
+    box-sizing: border-box;
+}
+
+.tool-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.tool-icon {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.tool-info {
+    flex: 1;
+}
+
+.tool-name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin: 0 0 5px 0;
+}
+
+.tool-price {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFA5378C;
+}
+
+.tool-description {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 0 0 30px 0;
+}
+
+.tool-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tool-actions {
+    display: flex;
+    gap: 12px;
+}
+
+.action-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.action-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+.visit-btn {
+    background: transparent;
+    color: rgba(255, 255, 255, 0.55);
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sketch-card {
+    position: relative;
+    width: 100%;
+    max-width: 392px;
+    height: 294px;
+    background: #283036;
+    border-radius: 15px;
+    padding: 33px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
+    box-sizing: border-box;
+    transform: translateY(-20px);
+}
+
+.sketch-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 15px;
+    padding: 2px;
+    background: linear-gradient(
+        118.49deg,
+        rgba(255, 255, 255, 0.08) -2.11%,
+        rgba(255, 255, 255, 0) 28.55%,
+        rgba(255, 255, 255, 0.05) 44.69%,
+        rgba(255, 255, 255, 0) 96.78%
+    );
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.sketch-card::after {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: -40px;
+    right: -40px;
+    background: #FF6E30;
+    opacity: 0.4;
+    border-radius: 50%;
+    filter: blur(60px);
+    z-index: 0;
+}
+
+.sketch-card .tool-header,
+.sketch-card .tool-description,
+.sketch-card .tool-footer {
+    position: relative;
+    z-index: 2;
+}
+
+.sketch-card .tool-header {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.sketch-card .tool-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.sketch-card .tool-name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.sketch-card .tool-price {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFA537;
+}
+
+.sketch-card .tool-description {
+    margin-top: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFFC7;
+}
+
+.sketch-card .tool-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.sketch-card .tool-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.sketch-card .action-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    border: none;
+    background: rgba(255, 255, 255, 0.03);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.sketch-card .action-btn img {
+    width: 22px;
+    height: 22px;
+}
+
+.sketch-card .visit-btn {
+    display: inline-block;
+    background: #FF6E30;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    padding: 12px 36px;
+    border-radius: 8px;
+    border: none;
+}
+
+.load-more-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.load-more-btn {
+    background: #1E252B;
+    border: 1.5px solid #FFFFFF1A;
+    border-radius: 8px;
+    color: #FF6E30;
+    padding: 17px 38px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.footer {
+    padding: 200px 108px;
+    max-width: 1224px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sketch-card .tool-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.sketch-card .action-btn {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+    border: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.sketch-card .action-btn:first-child {
+    background: #293136;
+    box-shadow: 0px 5px 10px -3px #12121226;
+}
+
+.sketch-card .action-btn img {
+    width: 20px;
+    height: 20px;
+}

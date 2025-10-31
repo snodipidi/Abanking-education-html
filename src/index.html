@@ -6,11 +6,232 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Antools</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    
+    <header class="header">
+        <nav class="nav">
+            <!-- Логотип и название -->
+            <div class="nav-brand">
+                <img src="images/logo-icon.svg" class="logo-icon">
+                <span class="logo-text">antools.</span>
+            </div>
+
+            <!-- Основное меню -->
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li>
+                    <a href="#" class="nav-link">
+                        Categories
+                        <img src="images/chevron-down.svg" alt="" class="arrow-icon">
+                    </a>
+                </li>
+                <li><a href="#" class="nav-link">My Collections</a></li>
+                <li><a href="#" class="nav-link">Blog</a></li>
+            </ul>
+
+            <!-- Кнопки входа -->
+            <div class="nav-auth">
+                <a href="#" class="login">Login</a>
+                <button class="btn-signup">Sign Up</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Awesome tools for<br>
+                    Designer & Developer<span class="orange-dot">.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Antool is a web collection of information on paid or free Design and Development tools
+                </p>
+            </div>
+            <div class="hero-image">
+                <img src="images/illustration.png" alt="Illustration">
+            </div>
+        </section>
+
+        <div class="search-container">
+            <div class="search-box">
+                <img src="images/search.svg" alt="Search" class="search-icon">
+                <input type="text" class="search-input" placeholder="find more than 430+ tools...">
+                <button class="search-btn">Search</button>
+            </div>
+        </div>
+
+        <div class="social">
+            <li>
+                <a href="#"><img src="images/facebook.svg" class="facebook"></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/inst.svg" class="inst"></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/twitter.svg" class="twitter"></a>
+            </li>
+        </div>
+
+        <section class="tools">
+            <div class="tools-header">
+                <h2 class="tools-title">Most Popular Tools</h2>
+                <p class="tools-subtitle">
+                    Tools for the best Designers and Developers<br>
+                    most popularly used in the world
+                </p>
+            </div>
+            
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <img src="images/figma.svg" alt="Figma" class="tool-icon">
+                        <div class="tool-info">
+                            <h3 class="tool-name">FIGMA</h3>
+                            <span class="tool-price">Free</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="tool-footer">
+                        <div class="tool-actions">
+                            <button class="action-btn">
+                                <img src="images/heart.svg" alt="Like">
+                            </button>
+                            <button class="action-btn">
+                                <img src="images/save.svg" alt="Save">
+                            </button>
+                        </div>
+                        <a href="#" class="visit-btn">Visit</a>
+                    </div>
+                </div>
+
+                <div class="tool-card sketch-card">
+                    <div class="tool-header">
+                        <img src="images/sketch.svg" alt="Sketch" class="tool-icon">
+                        <div class="tool-info">
+                            <h3 class="tool-name">Sketch</h3>
+                            <span class="tool-price">Trial & Paid</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="tool-footer">
+                        <div class="tool-actions">
+                            <button class="action-btn">
+                                <img src="images/heart_red.svg" alt="Like">
+                            </button>
+                            <button class="action-btn">
+                                <img src="images/save.svg" alt="Save">
+                            </button>
+                        </div>
+                        <a href="#" class="visit-btn">Visit</a>
+                    </div>
+                </div>
+                            
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <img src="images/vscode.svg" alt="VS Code" class="tool-icon">
+                        <div class="tool-info">
+                            <h3 class="tool-name">Visual Studio Code</h3>
+                            <span class="tool-price">Free</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="tool-footer">
+                        <div class="tool-actions">
+                            <button class="action-btn">
+                                <img src="images/heart.svg" alt="Like">
+                            </button>
+                            <button class="action-btn">
+                                <img src="images/save.svg" alt="Save">
+                            </button>
+                        </div>
+                        <a href="#" class="visit-btn">Visit</a>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <img src="images/vscode.svg" alt="Notion" class="tool-icon">
+                        <div class="tool-info">
+                            <h3 class="tool-name">Notion</h3>
+                            <span class="tool-price">Free & Paid</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="tool-footer">
+                        <div class="tool-actions">
+                            <button class="action-btn">
+                                <img src="images/heart.svg" alt="Like">
+                            </button>
+                            <button class="action-btn">
+                                <img src="images/save.svg" alt="Save">
+                            </button>
+                        </div>
+                        <a href="#" class="visit-btn">Visit</a>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <img src="images/slack.svg" alt="Slack" class="tool-icon">
+                        <div class="tool-info">
+                            <h3 class="tool-name">Slack</h3>
+                            <span class="tool-price">Free & Paid</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="tool-footer">
+                        <div class="tool-actions">
+                            <button class="action-btn">
+                                <img src="images/heart.svg" alt="Like">
+                            </button>
+                            <button class="action-btn">
+                                <img src="images/save.svg" alt="Save">
+                            </button>
+                        </div>
+                        <a href="#" class="visit-btn">Visit</a>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <img src="images/invision.svg" alt="Invision" class="tool-icon">
+                        <div class="tool-info">
+                            <h3 class="tool-name">Invision</h3>
+                            <span class="tool-price">Free & Paid</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="tool-footer">
+                        <div class="tool-actions">
+                            <button class="action-btn">
+                                <img src="images/heart.svg" alt="Like">
+                            </button>
+                            <button class="action-btn">
+                                <img src="images/save.svg" alt="Save">
+                            </button>
+                        </div>
+                        <a href="#" class="visit-btn">Visit</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Кнопка Load More -->
+        <div class="load-more-container">
+            <button class="load-more-btn">Load more</button>
+        </div>
+
+        <!-- Подвал -->
+        <footer class="footer">
+            <img src="images/brand.png"  class="footer-img">
+        </footer>
+    </main>
+
 </body>
 
 </html>
